@@ -1,0 +1,115 @@
+body {
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+#header {
+  width: 100%;
+  height: 60px;
+  background-color: #da7141;
+}
+#icon {
+  float: left;
+  margin-left: 2%;
+  margin-top: -1%;
+}
+#social {
+  float: right;
+  margin-right: 2%;
+}
+.slogo {
+  height: 50px;
+  width: 50px;
+}
+.clear {
+  clear: both;
+}
+/* Search */
+#search {
+  width: 100%;
+  height: 400px;
+  background-image: url("../images/food_wallpaper.jpg");
+  background-repeat: no-repeat;
+  /* background-size:cover;*/
+  background-size: 100% 400px;
+}
+#logo {
+  height: 150px;
+  width: 150px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 45;
+}
+#logo > span {
+  font-size: 80px;
+  padding-top: 17%;
+  position: absolute;
+  padding-left: 23%;
+}
+#heading {
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  margin-left: 32%;
+  margin-top: 14%;
+}
+.dropdown {
+  height: 60px;
+  width: 50%;
+  margin-left: 27%;
+  margin-top: 21%;
+  position: absolute;
+}
+select {
+  height: 60px;
+  width: 40%;
+  font-size: 20px;
+  text-align: center;
+}
+.restSelect {
+  width: 59%;
+}
+/* quickSearch */
+#quickSearch {
+  width: 80%;
+  height: 600px;
+  box-sizing: border-box;
+  margin-left: 10%;
+  margin-top: 2%;
+  
+}
+#quickHeading{
+  font-size: 30px;
+  color: #da7141;
+  display: block;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 2%;
+
+}
+#quickSubHeading{
+  color: gray;
+  font-size: 20px;
+  line-height: 2;
+  margin-left: 2%;
+
+}
+.tilecontainer{
+  width: 30%;
+  height: 200px;
+  border: 2px solid red;
+  float: left;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+/* footer */
+#footer{
+    width: 100%;
+    height: 100px;
+    border: 10px groove olive;
+    box-sizing: border-box;
+}
